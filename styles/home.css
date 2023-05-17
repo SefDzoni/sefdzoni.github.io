@@ -1,0 +1,169 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0 0;
+    background-color: #0E0F19;
+}
+
+nav {
+    width: 100%;
+    padding: 25px 0px;
+    position: fixed;
+    top: 0px;
+    background-color: #171825;
+    box-shadow: 2px 0px 2px rgba(255, 255, 255, 0.05);
+    font-size: 1rem;
+}
+  
+.navHolder {
+    width: 76%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navLeft a{
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.navRight a{
+    color: #F6E8EA;
+    text-decoration: none;
+    vertical-align: middle;
+    line-height: 51px;
+    transition: 0.25s;
+}
+
+
+.navRight a:hover{
+    text-decoration: none;
+    color: #6e78af;
+    transition: 0.25s;
+}
+nav a{
+    user-select: none;
+}
+
+nav p{
+    color: #F6E8EA;
+}
+
+nav span{
+    user-select: none;
+    color: #6e78af;
+}
+
+header {
+    padding-top: 175px;
+    height: 100vh;
+    width: auto;
+    color: #F6E8EA;
+}
+.welcome {
+    height: 70vh;
+    padding-left: 10%;
+    text-align: left;
+    width:auto;
+}
+
+.welcome span{
+    color: #6e78af;
+}
+.welcome h1{
+    font-size: 5rem;
+}
+.welcome p{
+    font-size: 3rem;
+}
+.next{
+    text-align: center;
+    height: 5vh;
+    width:auto;
+}
+.next a{
+    height: 5vh;
+    width: auto;
+    border-radius: 50%;
+}
+
+.next img{
+    height: 5vh;
+    width: auto;
+}
+
+/*Sections*/
+
+
+#info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:#F6E8EA;
+    margin: 80px 0px;
+    padding: 50px 0px;
+}
+  
+#info img{
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+}
+  
+#info .txtHolder {
+    margin: 50px 50px 0;
+    text-align: center;
+    max-width: 100vh;
+}
+  
+
+
+#info a{
+    text-decoration: none;
+    color: #c7b6b8;
+    transition: 0.25s;
+    justify-content: space-between;
+}
+#info a:hover{
+    text-decoration: none;
+    color: #625d88;
+    transition: 0.25s;
+}
+
+
+#tsrb{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color:#F6E8EA;
+    margin: 80px 0px;
+    padding: 50px 0px;
+}
+  
+#tsrb img{
+    width: 300px;
+    border-radius: 16px;
+}
+  
+#tsrb .txtHolder {
+    margin: 50px 50px 0;
+    text-align: center;
+    max-width: 100vh;
+}
+
+#tsrb a{
+    text-decoration: none;
+    color: #c7b6b8;
+    transition: 0.25s;
+    justify-content: space-between;
+}
+#tsrb a:hover{
+    text-decoration: none;
+    color: #625d88;
+    transition: 0.25s;
+}
+
